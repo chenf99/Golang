@@ -179,7 +179,7 @@ func process_input(sp_args *selpg_args) {
 			}
 		}
 	} else {
-		page_ctr = 1
+		page_ctr = 0
 		for {
 			line, err := fin.ReadBytes('\f')
 			if err == io.EOF || page_ctr > sp_args.end_page {
