@@ -76,8 +76,9 @@ page1
      page2
           page3
                page4
-$ selpg -s1 -e3 -f input 
+$selpg -s1 -e3 -f input 
 page1
      page2
-          
+          page3
+               
 ```
