@@ -143,15 +143,16 @@ Percentage of the requests served within a certain time (ms)
 - Time per request: 考虑并发时平均每个请求花费的时间，即上一个参数值除以并发数，这是服务器平均请求等待时间
 - Transfer rate: 传输速率，平均每秒传输的千字节数
 - Connection Times: 传输时间统计
-```
+```bash
 Connect:    连接时间
 Processing: 处理时间
 Waiting:    等待时间
 Total:      总时间
 ```
 - Percentage of the requests served within a certain time: 
+```bash
 50%     20
 ...
 100%     56 (longest request)
-
-50%的请求都在20ms内完成，100%的请求都在56ms内完成
+#50%的请求都在20ms内完成，100%的请求都在56ms内完成
+```
