@@ -18,7 +18,8 @@ negroni的特点是非常小，不复杂，又十分优雅地设计了中间件�
 
 # curl测试
 
-## 测试命令：`curl -v http://localhost:8080/`
+## 测试命令：
+`$ curl -v http://localhost:8080/`
 
 ## 返回结果:
 ```bash
@@ -48,7 +49,8 @@ This is a test server.
 ```
 # ab测试
 
-## 测试命令：`ab -n 1000 -c 100 http://localhost:8080/`
+## 测试命令：
+`$ ab -n 1000 -c 100 http://localhost:8080/`
 - -n请求数量
 - -c并发数量
 
@@ -59,7 +61,7 @@ Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking localhost (be patient)
-Completed 100 requests解释
+Completed 100 requests
 Completed 200 requests
 Completed 300 requests
 Completed 400 requests
