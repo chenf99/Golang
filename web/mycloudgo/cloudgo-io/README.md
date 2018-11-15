@@ -10,5 +10,9 @@
 
 # 静态文件服务
 把path以"/static/"前缀的URL定位到`webRoot + "/assets/`为虚拟根目录的文件系统
+
 在assets文件夹中不添加index.html，可以看到静态文件目录:
-[](images/static.png)
+
+![](img/static.png)
+
+# 简单js访问
